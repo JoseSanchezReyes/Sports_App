@@ -33,7 +33,7 @@ class SportsAdapter(private val onItemClicked: (Sport) -> Unit) :
         context = parent.context
         return SportsViewHolder(
             SportsListItemBinding.inflate(
-                LayoutInflater.from(parent.context), parent, false
+                LayoutInflater.from(context), parent, false
             )
         )
     }
