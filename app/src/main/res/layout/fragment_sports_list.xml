@@ -27,5 +27,6 @@
         android:layout_width="300dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
-        android:name="com.example.sports.ui.NewsDetailsFragment" />
+        android:name="com.example.sports.ui.NewsDetailsFragment"
+        tools:layout="@layout/activity_main" />
 </androidx.slidingpanelayout.widget.SlidingPaneLayout>
